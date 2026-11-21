@@ -18,7 +18,7 @@ License: MIT
 @earendil-works/pi-tui@0.85.1
 License: MIT
 
-@opendataloader/pdf@2.5.7
+@opendataloader/pdf@2.5.23
 License: Apache-2.0
 
 @rhwp/core@0.8.6
@@ -27,37 +27,37 @@ License: MIT
 chardet@2.2.0
 License: MIT
 
-fast-xml-parser@5.11.1
+fast-xml-parser@5.12.1
 License: MIT
 
 iconv-lite@0.7.3
 License: MIT
 
-jszip@3.10.1
+jszip@3.10.2
 License: (MIT OR GPL-3.0-or-later)
 
-mailparser@3.9.20
+mailparser@3.15.0
 License: MIT
 
-puppeteer-core@25.11.0
+puppeteer-core@25.18.1
 License: Apache-2.0
 
-slides-grab@1.5.1
+slides-grab@1.5.2
 License: MIT
 
-smol-toml@1.8.0
+smol-toml@1.9.0
 License: BSD-3-Clause
 
 tesseract.js@7.0.0
 License: Apache-2.0
 
-typebox@1.3.25
+typebox@1.4.7
 License: MIT
 
 xlsx@0.18.5
 License: Apache-2.0
 
-yaml@2.9.0
+yaml@2.9.1
 License: ISC
 
 Embedding runtime and model notices:

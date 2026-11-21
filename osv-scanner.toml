@@ -1,0 +1,42 @@
+# osv-scanner 설정. 업스트림이 고정했거나 수정본이 없는 전이 의존성 취약점만 만료일을 두고 무시한다.
+# 만료일이 지나면 다시 스캔 실패로 드러나므로 그때 재검토한다.
+
+[[IgnoredVulns]]
+id = "GHSA-5p2g-fcmc-qvqq"
+ignoreUntil = 2027-02-21
+reason = "image-size@1.2.1 (pptxgenjs <- slides-grab pins ^1)"
+
+[[IgnoredVulns]]
+id = "GHSA-w3rx-r6r6-pgpr"
+ignoreUntil = 2027-02-21
+reason = "image-size@1.2.1 (pptxgenjs <- slides-grab pins ^1)"
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+ignoreUntil = 2027-02-21
+reason = "minimatch@10.2.5 (pi-coding-agent pins exactly)"
+
+[[IgnoredVulns]]
+id = "GHSA-f88m-g3jw-g9cj"
+ignoreUntil = 2027-02-21
+reason = "sharp@0.33.5 (slides-grab pins ^0.33)"
+
+[[IgnoredVulns]]
+id = "GHSA-rgj7-g3m4-5g8c"
+ignoreUntil = 2027-02-21
+reason = "sharp@0.33.5 (slides-grab pins ^0.33)"
+
+[[IgnoredVulns]]
+id = "GHSA-wq5f-xc86-pv6w"
+ignoreUntil = 2027-02-21
+reason = "sharp@0.33.5 (slides-grab pins ^0.33)"
+
+[[IgnoredVulns]]
+id = "GHSA-4r6h-8v6p-xvw6"
+ignoreUntil = 2027-02-21
+reason = "xlsx@0.18.5 (no fixed version published on npm)"
+
+[[IgnoredVulns]]
+id = "GHSA-5pgg-2g8v-p4x9"
+ignoreUntil = 2027-02-21
+reason = "xlsx@0.18.5 (no fixed version published on npm)"
